@@ -1,0 +1,49 @@
+{
+    "html": {
+        "avatarOverlay": "Editar"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Valor Invalido",
+                "requiredValue": "* Obrigatorio",
+                "userMigrated": {
+                    "title": "Erro durante o login:<br>Credenciais inválidas",
+                    "desc": "Você tentou fazer login com uma conta migrada. Tente novamente usando o e-mail da conta como nome de usuário."
+                },
+                "invalidCredentials": {
+                    "title": "Erro durante o login:<br>Credenciais inválidas",
+                    "desc": "O e-mail ou senha que você digitou está incorreto. Por favor, tente novamente."
+                },
+                "rateLimit": {
+                    "title": "Erro durante o login:<br>muitas tentativas",
+                    "desc": "Houve muitas tentativas de login com esta conta recentemente. Por favor, tente novamente mais tarde."
+                },
+                "noInternet": {
+                    "title": "Erro durante o login:<br>Sem conexão com a Internet",
+                    "desc": "Você deve estar conectado à internet para fazer login. Conecte-se e tente novamente."
+                },
+                "authDown": {
+                    "title": "Erro durante o login:<br>Servidor de autenticação off-line",
+                    "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                },
+                "notPaid": {
+                    "title": "Erro durante o login:<br>Jogo não comprado",
+                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                },
+                "unknown": {
+                    "title": "Error During Login:<br>Unknown Error"
+                }
+            },
+            "login": "LOGIN",
+            "loggingIn": "LOGGING IN",
+            "success": "SUCCESS",
+            "tryAgain": "Try Again"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Please wait.."
+            }
+        }
+    }
+}
